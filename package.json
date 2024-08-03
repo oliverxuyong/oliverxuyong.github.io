@@ -1,8 +1,8 @@
 {
-  "name": "oliverxuyong.github.io",
+  "name": "oliverxuyong",
   "version": "0.0.0",
   "private": true,
-  "homepage": "https://oliverxuyong.github.io/oliverxuyong.github.io",
+  "homepage": "https://oliverxuyong.github.io/oliverxuyong",
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
