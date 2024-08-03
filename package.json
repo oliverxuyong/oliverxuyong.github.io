@@ -19,6 +19,10 @@
   "devDependencies": {
     "react-scripts": "latest"
   },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+
   "browserslist": {
     "production": [
       ">0.2%",
