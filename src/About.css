@@ -1,0 +1,19 @@
+.about-me-container {
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    position:absolute;
+    top:0px;
+  }
+  
+  .about-me-container h2,h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .about-me-container pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  

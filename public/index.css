@@ -1,0 +1,38 @@
+
+/* Default styles for desktop */
+body {
+  height: 100vh; /* Viewport height */
+  width: 100vw;  /* Viewport width */
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#root {
+  width: 70%;
+  max-width: 780px;
+  height: 100%;
+  background-color: rgb(195, 215, 222); /* Example content styling */
+}
+
+.tab-container {  /*底部菜单栏的宽度*/
+  width: 70%;
+}
+
+/* Styles for mobile devices */
+@media only screen and (max-width: 768px) {
+  body {
+    height: 100vh;
+    width: 100%;
+  }
+
+  #root {
+    width: 100%;
+    height: 100%;
+  }
+
+  .tab-container {  /*底部菜单栏的宽度*/
+    width: 100%;
+  }
+}

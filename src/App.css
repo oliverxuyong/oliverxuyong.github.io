@@ -1,0 +1,75 @@
+
+.study-title {
+  text-align: center;
+  margin-bottom: 0px;
+  justify-content: center;
+  margin-top: 0px;
+  display: flex;
+} 
+
+.dropdown-menu {
+  position: fixed;
+  bottom:50px; /* Adjust based on your requirements */
+  /*align-items: center;*/
+
+  /*bottom: 10px; /* Adjust based on your requirements */
+  /*left: 0px;
+  right: 0px;*/
+  /*margin-left:100px;*/
+  background-color: white;
+  color: black;
+  box-shadow: 1px -1px 2px 1px rgba(0,0,0,0.2);
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  width:70%;
+  padding-right: 10px;
+}
+
+.dropdown-item {
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  
+  width: 100%;
+  text-align: left;
+}
+
+.dropdown-item:hover {
+  background-color: #ddd;
+}
+
+/*
+.dropdown-item:hover, .dropdown-item.active{
+  background-color: #ddd;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none /*only to disable context menu on long press
+}
+*/
+.tab-container {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #ece6e6;
+  color: white;
+}
+
+.tab {
+  padding: 14px 20px;
+  cursor: pointer;
+  text-align: center;
+  flex: 1;
+  margin: 0.02em;
+  background-color: #666;
+}
+
+.tab.active {
+  background-color: #444;
+}
+

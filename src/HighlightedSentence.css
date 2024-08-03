@@ -1,0 +1,54 @@
+.word {
+  display: inline;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.highlighted-sentence {
+  position: relative;
+  background-color: white;
+  /*min-height: 120px;*/
+  margin-left: 4px;
+  margin-right: 4px;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: 1 2px 5px rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border: 1px solid
+}
+
+.english-text-and-translation {
+  position: relative;
+  /*min-height: 120px;*/
+
+}
+
+.english-text {
+ min-height: 100px;
+ font-size: 1.2em;
+}
+
+.translation {
+  margin-top: 0px;
+  min-height: 48px;
+}
+
+
+#fulltext-button {
+  margin-right: 5px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.blanklevel-controls {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+

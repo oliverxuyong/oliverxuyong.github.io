@@ -1,0 +1,25 @@
+.guide-container {
+  top:0px;
+  position:absolute;
+  padding: 20px;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  margin-top:0px;
+}
+
+.guide-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+  
+.guide-container p {
+  margin-bottom: 0px;
+}
+  
