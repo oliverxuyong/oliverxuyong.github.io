@@ -79,7 +79,7 @@ export default function WorkShop({material}) {
     //console.log('Workshop useEffect on currentSentenceIndex=', currentSentenceIndex);
     //console.log('Workshop useEffect currentSentence: sentsArray=',sentsArray)
     let currentSentence = sentsArray[currentSentenceIndex] || '';
-    //console.log("Workshop, currentSentence=",currentSentence);
+    console.log("Workshop, currentSentence=",currentSentence);
     setSentence(currentSentence);
     setAudiofile('/'+ material + '/' + material + '_' + (currentSentenceIndex+1) + '.mp3');
     },[currentSentenceIndex, sentsArray]);
@@ -91,7 +91,7 @@ export default function WorkShop({material}) {
     setSpokenTextPos(spokenTextPos);
     },[sentence,spokenText]);
 
-  //console.log("workshop sentence=",sentence)
+  console.log("workshop sentence=",sentence)
 
   return (
     <div>
