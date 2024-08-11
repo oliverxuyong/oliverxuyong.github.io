@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/oliverxuyong.github.io/static/css/main.1f14960b.css",
-    "main.js": "/oliverxuyong.github.io/static/js/main.0bfb9317.js",
+    "main.css": "/oliverxuyong.github.io/static/css/main.53c92a06.css",
+    "main.js": "/oliverxuyong.github.io/static/js/main.6721f376.js",
     "index.html": "/oliverxuyong.github.io/index.html",
-    "main.1f14960b.css.map": "/oliverxuyong.github.io/static/css/main.1f14960b.css.map",
-    "main.0bfb9317.js.map": "/oliverxuyong.github.io/static/js/main.0bfb9317.js.map"
+    "main.53c92a06.css.map": "/oliverxuyong.github.io/static/css/main.53c92a06.css.map",
+    "main.6721f376.js.map": "/oliverxuyong.github.io/static/js/main.6721f376.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f14960b.css",
-    "static/js/main.0bfb9317.js"
+    "static/css/main.53c92a06.css",
+    "static/js/main.6721f376.js"
   ]
 }
